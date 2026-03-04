@@ -27,10 +27,7 @@ def search():
     db.close()
 
     return flask.render_template('table.html', data=data, location=location)
+    
 
-
-### only for running on repl.it
-app.run('0.0.0.0', 8080)
-
-### for running on your local machine, use this
+### to be removed when running on GitHub+Render
 #app.run()
