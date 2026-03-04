@@ -30,4 +30,4 @@ def search():
     
 
 ### to be removed when running on GitHub+Render
-#app.run()
+app.run()
